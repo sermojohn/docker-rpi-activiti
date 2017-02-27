@@ -41,7 +41,7 @@ docker run --name='activiti' -it --rm \
 -p 8080:8080 \
 -v /var/run/docker.sock:/run/docker.sock \
 -v $(which docker):/bin/docker \
-sermojohn/docker-rpi-activiti:latest
+sermojohn/rpi-activiti:latest
 ```
 
 Point your browser to `http://localhost:8080/activiti-browser` and login using the default username and password:
